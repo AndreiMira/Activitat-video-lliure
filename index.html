@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Video de YouTube</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				background-color: #f0f0f0;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 100vh;
+				margin: 0;
+			}
+
+			.video-container {
+				position: relative;
+				width: 80%;
+				height: 90%;
+				margin-bottom: 20px;
+			}
+
+			.video-container iframe {
+				width: 100%;
+				height: 100%;
+			}
+
+			.video-info {
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="video-info">
+			<h1>TUTORIAL COPIAR Y PEGAR</h1>
+		</div>
+
+		<div class="video-container">
+			<!-- Reemplaza 'VIDEO_ID' con el ID del video de YouTube que quieres mostrar -->
+			<iframe width="1920" height="1080" src="https://www.youtube.com/embed/exSMEyGePbs" frameborder="0" allowfullscreen></iframe>
+		</div>
+
+		<div class="video-info">
+			<p>El mejor tutorial para aprender a hacer ctrl + c y ctrl + v</p>
+		</div>
+	</body>
+</html>
